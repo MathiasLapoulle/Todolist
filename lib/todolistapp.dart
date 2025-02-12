@@ -32,6 +32,7 @@ class TodolistApp extends StatelessWidget {
                       child: ListTile(
                         leading: buildIcon(tasksCollection[index].status), //Ajout de l'icone à côté dans la ligne
                         title: Text(tasksCollection[index].content), //Ajout de la ligne en fonction des tasks déjà enregistrées
+                        subtitle: Text('Créé le: ${tasksCollection[index].createdAt}'),
                       ),
                     ); // Correction : ajout du point-virgule
                   },
