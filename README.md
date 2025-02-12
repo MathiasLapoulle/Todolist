@@ -1,3 +1,3 @@
 # todolist
 
-A new Flutter project.
+Projet par LAPOULLE Mathias
