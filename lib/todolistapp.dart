@@ -17,6 +17,7 @@ class TodolistApp extends StatelessWidget {
       home: Scaffold(
 
         appBar: AppBar( //Ajout du widget AppBar dans le Scaffold
+          leading: Image.asset('images/todolist.png'),
           title: Text("Todolist"),
         ),
 
