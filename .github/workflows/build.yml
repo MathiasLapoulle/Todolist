@@ -14,8 +14,6 @@ jobs:
         with:
           fetch-depth: 0  # Shallow clones should be disabled for a better relevancy of analysis
       # The analysis requires to retrieve dependencies and build successfully
-      - name: Build
-        run: npm install && npm run build
       - name: SonarQube Scan
         uses: SonarSource/sonarqube-scan-action@v5
         env:
